@@ -16,3 +16,11 @@ D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.INFRASTRUCTURE.DAL\obj\
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.INFRASTRUCTURE.DAL\obj\Debug\netstandard2.0\PHONEBOOK.INFRASTRUCTURE.DAL.AssemblyInfo.cs
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.INFRASTRUCTURE.DAL\obj\Debug\netstandard2.0\PHONEBOOK.INFRASTRUCTURE.DAL.dll
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.INFRASTRUCTURE.DAL\obj\Debug\netstandard2.0\PHONEBOOK.INFRASTRUCTURE.DAL.pdb
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.INFRASTRUCTURE.DAL\bin\Debug\netstandard2.0\PHONEBOOK.INFRASTRUCTURE.DAL.deps.json
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.INFRASTRUCTURE.DAL\bin\Debug\netstandard2.0\PHONEBOOK.INFRASTRUCTURE.DAL.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.INFRASTRUCTURE.DAL\bin\Debug\netstandard2.0\PHONEBOOK.INFRASTRUCTURE.DAL.pdb
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.INFRASTRUCTURE.DAL\bin\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.INFRASTRUCTURE.DAL\bin\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.INFRASTRUCTURE.DAL\bin\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.pdb
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.INFRASTRUCTURE.DAL\bin\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.pdb
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.INFRASTRUCTURE.DAL\obj\Debug\netstandard2.0\PHONEBOOK.INFRASTRUCTURE.DAL.csproj.CopyComplete

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using PHONEBOOK.DOMAIN.CONTRACT;
 using PHONEBOOK.DOMIN.CORE;
 using PHONEBOOK.ENDPOINT.MVC.Models;
+using PHONEBOOK.INFRASTRUCTURE.DAL.Repository;
 
 namespace PHONEBOOK.ENDPOINT.MVC.Controllers
 {
@@ -23,7 +24,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
         public IActionResult Add()
         {
             AddNewPeopleForDispaly_ViewModel model = new AddNewPeopleForDispaly_ViewModel();
-            //model.TagsForDisplay = ITagRepository;
+            model.TagsForDisplay = TagRepo.GetAll();
             return View();
         }
 
