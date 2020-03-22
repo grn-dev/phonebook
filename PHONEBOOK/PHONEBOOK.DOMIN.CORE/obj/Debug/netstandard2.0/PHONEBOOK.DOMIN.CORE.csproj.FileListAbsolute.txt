@@ -1,0 +1,8 @@
+D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.DOMIN.CORE\bin\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.deps.json
+D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.DOMIN.CORE\bin\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.dll
+D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.DOMIN.CORE\bin\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.pdb
+D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.DOMIN.CORE\obj\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.csprojAssemblyReference.cache
+D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.DOMIN.CORE\obj\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.AssemblyInfoInputs.cache
+D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.DOMIN.CORE\obj\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.AssemblyInfo.cs
+D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.DOMIN.CORE\obj\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.dll
+D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.DOMIN.CORE\obj\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.pdb
