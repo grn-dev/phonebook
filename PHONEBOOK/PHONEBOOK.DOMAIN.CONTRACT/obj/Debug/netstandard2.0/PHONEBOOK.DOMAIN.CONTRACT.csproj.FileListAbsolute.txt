@@ -9,3 +9,14 @@ D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\obj\Debug
 D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\bin\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.pdb
 D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\obj\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.dll
 D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\obj\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.pdb
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\bin\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.deps.json
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\bin\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\bin\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.pdb
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\bin\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\bin\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.pdb
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\obj\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.csprojAssemblyReference.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\obj\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.AssemblyInfoInputs.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\obj\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.AssemblyInfo.cs
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\obj\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.csproj.CopyComplete
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\obj\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMAIN.CONTRACT\obj\Debug\netstandard2.0\PHONEBOOK.DOMAIN.CONTRACT.pdb

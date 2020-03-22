@@ -6,8 +6,10 @@ using System.Text;
 
 namespace PHONEBOOK.INFRASTRUCTURE.DAL.Repository
 {
-    public class PersonRepo //: BaseRepoisitory, IPersonRepository   pes <>
+    public class PersonRepo : BaseRepoisitory<Person>, IPersonRepository   
     {
-       
+        public PersonRepo(PHONEBOOK_DB dbContext) : base(dbContext)
+        {
+        }
     }
 }

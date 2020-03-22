@@ -151,3 +151,11 @@ D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\ne
 D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Navigation.cshtml.g.cs
 D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_dropdown.cshtml.g.cs
 D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\People\Add.cshtml.g.cs
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.csprojAssemblyReference.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.RazorAssemblyInfo.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.RazorAssemblyInfo.cs
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.AssemblyInfoInputs.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.AssemblyInfo.cs
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.pdb

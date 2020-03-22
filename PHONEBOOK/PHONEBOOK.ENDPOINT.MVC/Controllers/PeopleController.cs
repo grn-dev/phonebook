@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using PHONEBOOK.DOMAIN.CONTRACT;
 using PHONEBOOK.DOMIN.CORE;
+using PHONEBOOK.ENDPOINT.MVC.Models;
 
 namespace PHONEBOOK.ENDPOINT.MVC.Controllers
 {
@@ -16,11 +18,16 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
         }
 
 
+
         // by default get
         public IActionResult Add()
         {
+            AddNewPeopleForDispaly_ViewModel model = new AddNewPeopleForDispaly_ViewModel();
+            //model.TagsForDisplay = ITagRepository;
             return View();
         }
+
+
 
         [HttpPost]
         public IActionResult Add(Person person)
