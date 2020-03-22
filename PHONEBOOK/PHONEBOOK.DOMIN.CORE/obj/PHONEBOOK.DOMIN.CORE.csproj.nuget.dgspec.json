@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {}
+    "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {}
   },
   "projects": {
-    "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
+    "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj",
+        "projectUniqueName": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj",
         "projectName": "PHONEBOOK.DOMIN.CORE",
-        "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj",
+        "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj",
         "packagesPath": "C:\\Users\\Sabzali\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\obj\\",
+        "outputPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

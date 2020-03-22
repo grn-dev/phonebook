@@ -6450,11 +6450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj",
+      "projectUniqueName": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj",
       "projectName": "PHONEBOOK.INFRASTRUCTURE.DAL",
-      "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj",
+      "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj",
       "packagesPath": "C:\\Users\\Sabzali\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\obj\\",
+      "outputPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6473,11 +6473,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj": {
-              "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj"
+            "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj": {
+              "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj"
             },
-            "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
-              "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj"
+            "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
+              "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj"
             }
           }
         }

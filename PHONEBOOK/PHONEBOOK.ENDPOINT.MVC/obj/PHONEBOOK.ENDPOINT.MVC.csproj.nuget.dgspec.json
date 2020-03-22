@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.ENDPOINT.MVC\\PHONEBOOK.ENDPOINT.MVC.csproj": {}
+    "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.ENDPOINT.MVC\\PHONEBOOK.ENDPOINT.MVC.csproj": {}
   },
   "projects": {
-    "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj": {
+    "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj",
+        "projectUniqueName": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj",
         "projectName": "PHONEBOOK.DOMAIN.CONTRACT",
-        "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj",
+        "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj",
         "packagesPath": "C:\\Users\\Sabzali\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\obj\\",
+        "outputPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
-                "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj"
+              "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
+                "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
+    "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj",
+        "projectUniqueName": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj",
         "projectName": "PHONEBOOK.DOMIN.CORE",
-        "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj",
+        "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj",
         "packagesPath": "C:\\Users\\Sabzali\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\obj\\",
+        "outputPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -128,14 +128,14 @@
         }
       }
     },
-    "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.ENDPOINT.MVC\\PHONEBOOK.ENDPOINT.MVC.csproj": {
+    "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.ENDPOINT.MVC\\PHONEBOOK.ENDPOINT.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.ENDPOINT.MVC\\PHONEBOOK.ENDPOINT.MVC.csproj",
+        "projectUniqueName": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.ENDPOINT.MVC\\PHONEBOOK.ENDPOINT.MVC.csproj",
         "projectName": "PHONEBOOK.ENDPOINT.MVC",
-        "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.ENDPOINT.MVC\\PHONEBOOK.ENDPOINT.MVC.csproj",
+        "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.ENDPOINT.MVC\\PHONEBOOK.ENDPOINT.MVC.csproj",
         "packagesPath": "C:\\Users\\Sabzali\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.ENDPOINT.MVC\\obj\\",
+        "outputPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.ENDPOINT.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -154,17 +154,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj": {
-                "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj"
+              "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj": {
+                "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj"
               },
-              "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
-                "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj"
+              "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
+                "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj"
               },
-              "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj": {
-                "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj"
+              "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj": {
+                "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj"
               },
-              "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES.csproj": {
-                "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES.csproj"
+              "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES.csproj": {
+                "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES.csproj"
               }
             }
           }
@@ -211,14 +211,14 @@
         }
       }
     },
-    "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj": {
+    "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj",
+        "projectUniqueName": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj",
         "projectName": "PHONEBOOK.INFRASTRUCTURE.DAL",
-        "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj",
+        "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\PHONEBOOK.INFRASTRUCTURE.DAL.csproj",
         "packagesPath": "C:\\Users\\Sabzali\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\obj\\",
+        "outputPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.INFRASTRUCTURE.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -237,11 +237,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj": {
-                "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj"
+              "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj": {
+                "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj"
               },
-              "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
-                "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj"
+              "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
+                "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj"
               }
             }
           }
@@ -290,14 +290,14 @@
         }
       }
     },
-    "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES.csproj": {
+    "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES.csproj",
+        "projectUniqueName": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES.csproj",
         "projectName": "PHONEBOOK.SERVICES.APPLOCATIONSERVICES",
-        "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES.csproj",
+        "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES.csproj",
         "packagesPath": "C:\\Users\\Sabzali\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES\\obj\\",
+        "outputPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.SERVICES.APPLOCATIONSERVICES\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -316,11 +316,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj": {
-                "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj"
+              "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj": {
+                "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMAIN.CONTRACT\\PHONEBOOK.DOMAIN.CONTRACT.csproj"
               },
-              "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
-                "projectPath": "D:\\Visual studio project\\PHONEBOOK\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj"
+              "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj": {
+                "projectPath": "D:\\Git myproject\\phonebook\\phonebook\\PHONEBOOK\\PHONEBOOK.DOMIN.CORE\\PHONEBOOK.DOMIN.CORE.csproj"
               }
             }
           }
