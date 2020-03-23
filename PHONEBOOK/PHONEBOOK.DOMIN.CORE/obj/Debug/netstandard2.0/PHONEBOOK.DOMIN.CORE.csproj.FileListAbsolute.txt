@@ -14,3 +14,4 @@ D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMIN.CORE\obj\Debug\ne
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMIN.CORE\obj\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.AssemblyInfo.cs
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMIN.CORE\obj\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.dll
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMIN.CORE\obj\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.pdb
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.DOMIN.CORE\obj\Debug\netstandard2.0\PHONEBOOK.DOMIN.CORE.csproj.CoreCompileInputs.cache

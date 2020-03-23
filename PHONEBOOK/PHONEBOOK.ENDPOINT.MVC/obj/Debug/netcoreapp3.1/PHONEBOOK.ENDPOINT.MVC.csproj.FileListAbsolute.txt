@@ -304,3 +304,5 @@ D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.csproj.CopyComplete
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\staticwebassets\PHONEBOOK.ENDPOINT.MVC.StaticWebAssets.Manifest.cache
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\staticwebassets\PHONEBOOK.ENDPOINT.MVC.StaticWebAssets.xml
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.csproj.CoreCompileInputs.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.genruntimeconfig.cache

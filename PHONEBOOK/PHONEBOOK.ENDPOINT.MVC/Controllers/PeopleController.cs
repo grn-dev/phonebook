@@ -30,7 +30,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
             //dbContext
             TagRepo ssd = new TagRepo(dbContext);
             model.TagsForDisplay = ssd.GetAll().ToList();
-            model.TagsForDisplay = TagRepo.GetAll().ToList();
+            //model.TagsForDisplay = TagRepo.GetAll().ToList();
             return View();
         }
 
