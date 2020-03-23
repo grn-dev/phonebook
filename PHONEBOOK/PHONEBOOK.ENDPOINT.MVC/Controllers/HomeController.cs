@@ -25,11 +25,11 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
             PHONEBOOK_DB cnx = new PHONEBOOK_DB();
 
             Person people = new Person() {
-                FirstName = "sabzali",
+                FirstName = "mahmoud",
                 LastName = "sabzali",
-                Address = "sabzali",
-                Image = "sabzali",
-                Email= "sabzali@sabzali.sabzali"
+                Address = "afsarey",
+                Image = "imagegrn",
+                Email= "sabzali@gmail.com"
 
             };
 

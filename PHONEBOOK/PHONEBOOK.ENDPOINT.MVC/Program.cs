@@ -13,8 +13,18 @@ namespace PHONEBOOK.ENDPOINT.MVC
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
-        }
+            try
+            {
+                CreateHostBuilder(args).Build().Run();
+            }
+            catch (Exception ex)
+            {
+                var sss = ex.Message;
+                var sss2 = ex.Message;
+                throw;
+            }
+            
+        }   
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)

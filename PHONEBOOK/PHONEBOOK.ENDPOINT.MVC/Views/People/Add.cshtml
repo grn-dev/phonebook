@@ -1,4 +1,4 @@
-﻿@model PHONEBOOK.DOMIN.CORE.Person
+﻿@model PHONEBOOK.ENDPOINT.MVC.Models.AddNewPeopleForDispaly_ViewModel
 @{
 
 
@@ -9,9 +9,15 @@
     @*<input type="text" src="..." alt="Or Click Me" formaction="/Home/Test">*@
     <input type="text" asp-for="FirstName">
     <input type="text" asp-for="LastName">
-    <input type="text" asp-for="Phones">
-    <input type="text" asp-for="FirstName">
-    <input type="text" asp-for="FirstName">
+    <input type="text" asp-for="Email">
+    <input type="text" asp-for="Address">
+    <input type="file" asp-for="Image">
+    <select multiple>
+        @foreach (var item in Model.TagsForDisplay)
+        {
+        <option value="@item.ID"> @item.Title</option>
+        }
+    </select>
 
 
 

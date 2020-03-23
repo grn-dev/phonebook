@@ -5,9 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PHONEBOOK.DOMAIN.CONTRACT;
+using PHONEBOOK.INFRASTRUCTURE.DAL;
+using PHONEBOOK.INFRASTRUCTURE.DAL.Repository;
 
 namespace PHONEBOOK.ENDPOINT.MVC
 {
@@ -23,7 +27,20 @@ namespace PHONEBOOK.ENDPOINT.MVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddMvc();
             services.AddControllersWithViews();
+            //services.AddDbContext<PHONEBOOK_DB>(v=> v.uses );
+            ////services.AddDbContext<PHONEBOOK_DB>;
+            //services.AddDbContext<PHONEBOOK_DB>(c => c.UseSqlServer
+            //("Data Source=.;Initial Catalog=PHONEBOOK;Integrated Security=True;"));
+            services.AddDbContext<PHONEBOOK_DB>(ServiceLifetime.Scoped);
+
+            services.AddScoped<IPersonRepository, PersonRepo>();
+            services.AddScoped<ITagRepository, TagRepo>();
+            services.AddScoped<IPhoneRepository, PhoneRepo>();
+
+            //services.AddControllersWithViews();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
