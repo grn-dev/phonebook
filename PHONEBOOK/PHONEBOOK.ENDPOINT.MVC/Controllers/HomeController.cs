@@ -22,22 +22,23 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
 
         public IActionResult Index()
         {
-            PHONEBOOK_DB cnx = new PHONEBOOK_DB();
+            //PHONEBOOK_DB cnx = new PHONEBOOK_DB();
 
-            Person people = new Person() {
+            Person people = new Person()
+            {
                 FirstName = "mahmoud",
                 LastName = "sabzali",
                 Address = "afsarey",
                 Image = "imagegrn",
-                Email= "sabzali@gmail.com"
+                Email = "sabzali@gmail.com"
 
             };
 
-            cnx.people.Add(people);
-              cnx.SaveChanges();
+            //cnx.people.Add(people);
+            //cnx.SaveChanges();
 
             return View();
-            
+
         }
 
         public IActionResult Privacy()

@@ -4,22 +4,64 @@
 
 }
 
-<form asp-controller="people" asp-action="Add" method="post">
-    <!-- Input and Submit elements -->
-    @*<input type="text" src="..." alt="Or Click Me" formaction="/Home/Test">*@
-    <input type="text" asp-for="FirstName">
-    <input type="text" asp-for="LastName">
-    <input type="text" asp-for="Email">
-    <input type="text" asp-for="Address">
-    <input type="file" asp-for="Image">
-    <select multiple>
-        @foreach (var item in Model.TagsForDisplay)
-        {
-        <option value="@item.ID"> @item.Title</option>
-        }
-    </select>
+    <form asp-controller="people" asp-action="Add" method="post" enctype="multipart/form-data">
+
+        <div class="form-group">
+            <label asp-for="FirstName"></label>
+            <input type="text" asp-for="FirstName" class="form-control" max="50">
+
+        </div>
+
+        <div class="form-group">
+            <label asp-for="LastName"></label>
+            <input type="text" asp-for="LastName" class="form-control" max="50">
+
+
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="Email"></label>
+            <input type="text" asp-for="Email" class="form-control" max="50">
+
+
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Address"></label>
+            <input type="text" asp-for="Address" class="form-control" max="250">
+
+
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Image"></label>
+            <input type="file" asp-for="Image" class="form-control" max="500">
+
+
+        </div>
+
+
+        <!-- Input and Submit elements -->
+        @*<input type="text" src="..." alt="Or Click Me" formaction="/Home/Test">*@
+
+
+
+        <div class="form-group">
+
+            <select  asp-for="TagsForDisplay" name="selectedtag"  multiple>
+                @foreach (var item in Model.TagsForDisplay)
+                {
+                    <option value="@item.ID"> @item.Title</option>
+                }
+            </select>
+        </div>
+
+
+        <button type="submit" class="btn btn-success">ثبت</button>
 
 
 
 
-</form>
+
+    </form>

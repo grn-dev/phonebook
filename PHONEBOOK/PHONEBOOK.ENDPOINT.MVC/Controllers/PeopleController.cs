@@ -26,21 +26,43 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
         {
             AddNewPeopleForDispaly_ViewModel model = new AddNewPeopleForDispaly_ViewModel();
             Tag ssss = new Tag();
-            PHONEBOOK_DB dbContext=new PHONEBOOK_DB();
+            PHONEBOOK_DB dbContext = new PHONEBOOK_DB();
             //dbContext
             TagRepo ssd = new TagRepo(dbContext);
             model.TagsForDisplay = ssd.GetAll().ToList();
             //model.TagsForDisplay = TagRepo.GetAll().ToList();
-            return View();
+            return View(model);
         }
 
 
 
         [HttpPost]
-        public IActionResult Add(AddNewPeopleselectedTag_ViewModel person)
+        public IActionResult Add(AddNewPeopleselectedTag_ViewModel model)
         {
+            if (ModelState.IsValid)
+            {
+                Person p = new Person()
+                {
+                    FirstName = model.FirstName,
+                    LastName = model.LastName,
+                    Address = model.Address,
+                    Email = model.Email,
+
+                    //Tags = new List<PesronTag>(model.selectedtag.Select(c=> new PesronTag))
+                    //{
+
+                    //},
+                    Image = model.FirstName,
+
+
+
+                };
+
+            }
             return View();
         }
+
+
 
 
 
