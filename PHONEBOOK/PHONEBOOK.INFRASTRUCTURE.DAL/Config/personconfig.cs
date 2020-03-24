@@ -17,7 +17,7 @@ namespace PHONEBOOK.INFRASTRUCTURE.DAL.Config
             builder.Property(c => c.LastName).HasMaxLength(50);
             builder.Property(c => c.Email).IsRequired().IsUnicode(false).HasMaxLength(250);
             builder.Property(c => c.Address).IsRequired().HasMaxLength(500);
-            builder.Property(c => c.Image).HasMaxLength(50);
+            builder.Property(c => c.Image).IsUnicode(false);
 
         }
     }

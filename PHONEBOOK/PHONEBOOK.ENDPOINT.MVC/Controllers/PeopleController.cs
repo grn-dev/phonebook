@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -32,7 +33,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
         public IActionResult Add()
         {
             AddNewPeopleForDispaly_ViewModel model = new AddNewPeopleForDispaly_ViewModel();
-            Tag ssss = new Tag();
+            //Tag ssss = new Tag();
             //PHONEBOOK_DB dbContext = new PHONEBOOK_DB();
             //dbContext
             //TagRepo ssd = new TagRepo(dbContext);
@@ -48,25 +49,36 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                Person p = new Person()
+                Person prsn = new Person()
                 {
                     FirstName = model.FirstName,
                     LastName = model.LastName,
                     Address = model.Address,
                     Email = model.Email,
 
-                    //Tags = new List<PesronTag>(model.selectedtag.Select(c=> new PesronTag))
+                    //Tags = new List<PesronTag>(model.selectedtag.Select(c => new PesronTag))
                     //{
 
                     //},
-                    Image = model.FirstName,
 
-
+                    //Tags = new List<PesronTag>(model.selectedtag.Select(c => new PesronTag
+                    //{
+                    //    tagid = c
+                    //}).ToList())
 
                 };
+                if (model?.Image?.Length > 0)
+                {
+                    using (var ms = new MemoryStream())
+                    {
+                        model.Image.CopyTo(ms);
+                        var fileBytes = ms.ToArray();
+                        prsn.Image = Convert.ToBase64String(fileBytes);
+                    }
+                }
 
 
-                personRepository.Add(p);
+                personRepository.Add(prsn);
                 return View();
 
             }

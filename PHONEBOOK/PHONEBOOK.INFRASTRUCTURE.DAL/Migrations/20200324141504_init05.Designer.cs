@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PHONEBOOK.INFRASTRUCTURE.DAL;
 
 namespace PHONEBOOK.INFRASTRUCTURE.DAL.Migrations
 {
     [DbContext(typeof(PHONEBOOK_DB))]
-    partial class PHONEBOOK_DBModelSnapshot : ModelSnapshot
+    [Migration("20200324141504_init05")]
+    partial class init05
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
