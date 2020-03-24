@@ -18,7 +18,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Models
         [StringLength(50, MinimumLength = 2)]
         public string LastName { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "ایمیل واموندتو درست وارد کن پدر سگ!")]
         [EmailAddress]
         public string Email { get; set; }
 
