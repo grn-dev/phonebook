@@ -13,6 +13,13 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
 {
     public class PeopleController : Controller
     {
+        private readonly ITagRepository tagRepository;
+        private readonly IPersonRepository personRepository;
+        public PeopleController(ITagRepository _tagRepository, IPersonRepository _personRepository)
+        {
+            tagRepository = _tagRepository;
+            personRepository = _personRepository;
+        }
         // GET: /<controller>/
         public IActionResult Index()
         {
@@ -26,11 +33,11 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
         {
             AddNewPeopleForDispaly_ViewModel model = new AddNewPeopleForDispaly_ViewModel();
             Tag ssss = new Tag();
-            PHONEBOOK_DB dbContext = new PHONEBOOK_DB();
+            //PHONEBOOK_DB dbContext = new PHONEBOOK_DB();
             //dbContext
-            TagRepo ssd = new TagRepo(dbContext);
-            model.TagsForDisplay = ssd.GetAll().ToList();
-            //model.TagsForDisplay = TagRepo.GetAll().ToList();
+            //TagRepo ssd = new TagRepo(dbContext);
+            // model.TagsForDisplay = ssd.GetAll().ToList();
+            model.TagsForDisplay = tagRepository.GetAll().ToList();
             return View(model);
         }
 
@@ -58,8 +65,12 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
 
                 };
 
+
+                personRepository.Add(p);
+                return View();
+
             }
-            return View();
+            return View(model);
         }
 
 
