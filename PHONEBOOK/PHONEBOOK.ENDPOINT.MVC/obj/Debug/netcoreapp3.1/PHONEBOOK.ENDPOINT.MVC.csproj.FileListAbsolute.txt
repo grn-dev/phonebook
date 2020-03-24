@@ -151,14 +151,6 @@ D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\ne
 D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Navigation.cshtml.g.cs
 D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_dropdown.cshtml.g.cs
 D:\Visual studio project\PHONEBOOK\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\People\Add.cshtml.g.cs
-D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.csprojAssemblyReference.cache
-D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.MvcApplicationPartsAssemblyInfo.cache
-D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.RazorAssemblyInfo.cache
-D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.RazorAssemblyInfo.cs
-D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.AssemblyInfoInputs.cache
-D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.AssemblyInfo.cs
-D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.dll
-D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.pdb
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -285,6 +277,13 @@ D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\PHONEBOOK.DOMIN.CORE.pdb
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\PHONEBOOK.INFRASTRUCTURE.DAL.pdb
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\PHONEBOOK.SERVICES.APPLOCATIONSERVICES.pdb
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.csprojAssemblyReference.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.csproj.CoreCompileInputs.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.RazorAssemblyInfo.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.RazorAssemblyInfo.cs
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.AssemblyInfoInputs.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.AssemblyInfo.cs
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.TagHelpers.input.cache
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.TagHelpers.output.cache
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.RazorCoreGenerate.cache
@@ -304,5 +303,7 @@ D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.csproj.CopyComplete
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\staticwebassets\PHONEBOOK.ENDPOINT.MVC.StaticWebAssets.Manifest.cache
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\staticwebassets\PHONEBOOK.ENDPOINT.MVC.StaticWebAssets.xml
-D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.csproj.CoreCompileInputs.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.pdb
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.genruntimeconfig.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\People\Index.cshtml.g.cs

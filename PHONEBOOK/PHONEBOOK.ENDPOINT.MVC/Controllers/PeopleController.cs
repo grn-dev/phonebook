@@ -24,9 +24,15 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            return View();
+            var listprsn = personRepository.GetAll().ToList();
+            return View(listprsn);
         }
 
+        public IActionResult sag(int id)
+        {
+            var listprsn = personRepository.GetAll().ToList();
+            return View(listprsn);
+        }
 
 
         // by default get
@@ -41,6 +47,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
             model.TagsForDisplay = tagRepository.GetAll().ToList();
             return View(model);
         }
+
 
 
 
@@ -59,7 +66,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
 
                     //Tags = new List<PesronTag>(model.selectedtag.Select(c => new PesronTag))
                     //{
-
+                    //  unselect after 
                     //},
 
                     //Tags = new List<PesronTag>(model.selectedtag.Select(c => new PesronTag
@@ -90,7 +97,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
             Email= model.Email,
             Address= model.Address,
             };
-            modelshow.TagsForDisplay = tagRepository.GetAll().ToList();
+            modelshow.TagsForDisplay = tagRepository.GetAll().ToList();//show un selct 
             return View(modelshow);
         }
 

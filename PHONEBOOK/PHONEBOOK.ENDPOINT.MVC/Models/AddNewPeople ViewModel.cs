@@ -11,7 +11,8 @@ namespace PHONEBOOK.ENDPOINT.MVC.Models
     public abstract class AddNewPeople_ViewModel
     {
         [Required]
-        [StringLength(50,MinimumLength =2)]
+        //[StringLength(50,MinimumLength =2)]
+        [StringLength(50, ErrorMessage = "حداکثر 50 کاراکتر")]
         public string FirstName { get; set; }
 
         [Required]
