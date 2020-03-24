@@ -5,7 +5,7 @@
 }
 
     <form asp-controller="people" asp-action="Add" method="post" enctype="multipart/form-data">
-
+        <div asp-validation-summary="All"></div>
         <div class="form-group">
             <label asp-for="FirstName"></label>
             <input type="text" asp-for="FirstName" class="form-control" max="50">
@@ -58,9 +58,9 @@
 
             <select  asp-for="TagsForDisplay" name="selectedtag"  multiple>
                 @foreach (var item in Model.TagsForDisplay)
-                {
+                 {
                     <option value="@item.ID"> @item.Title</option>
-                }
+                 }
             </select>
         </div>
 

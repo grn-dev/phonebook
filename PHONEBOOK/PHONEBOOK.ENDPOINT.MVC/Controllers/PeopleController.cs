@@ -47,6 +47,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
         [HttpPost]
         public IActionResult Add(AddNewPeopleselectedTag_ViewModel model)
         {
+            
             if (ModelState.IsValid)
             {
                 Person prsn = new Person()
@@ -79,10 +80,18 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
 
 
                 personRepository.Add(prsn);
+
                 return View();
 
             }
-            return View(model);
+            AddNewPeopleForDispaly_ViewModel modelshow = new AddNewPeopleForDispaly_ViewModel() { 
+            FirstName= model.FirstName,
+            LastName= model.LastName,
+            Email= model.Email,
+            Address= model.Address,
+            };
+            modelshow.TagsForDisplay = tagRepository.GetAll().ToList();
+            return View(modelshow);
         }
 
 
