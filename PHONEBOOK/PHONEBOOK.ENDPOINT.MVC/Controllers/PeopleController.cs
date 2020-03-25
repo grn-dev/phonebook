@@ -17,7 +17,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
     {
         private readonly ITagRepository tagRepository;
         private readonly IPersonRepository personRepository;
-        public PeopleController(ITagRepository _tagRepository, IPersonRepository _personRepository)
+        public PeopleController(ITagRepository _tagRepository, IPersonRepository _personRepository,iper)
         {
             tagRepository = _tagRepository;
             personRepository = _personRepository;
@@ -38,8 +38,13 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
                 LastName = pr.LastName,
                 Address = pr.Address,
                 Email = pr.Email,
-                List < Phone > phlist = new List<Phone>() { };
+                Phones= pr.Phones,
+                //Image= pr.Image,
+                Tags= pr.Tags,
+                
             };
+            var pr = PesronTag.;
+            mdlshow.Title_tag=
             
             byte[] bytes = Convert.FromBase64String("");
 

@@ -17,12 +17,9 @@ namespace PHONEBOOK.ENDPOINT.MVC.Models
         public List<PesronTag> Tags { get; set; }
 
         /////
-        public int personid { get; set; }
-        public Person person { get; set; }
-        public int tagid { get; set; }
-        public Tag tag { get; set; }
+        
 
         //
-        public string Title { get; set; }
+        public List<string> Title_tag { get; set; }
     }
 }
