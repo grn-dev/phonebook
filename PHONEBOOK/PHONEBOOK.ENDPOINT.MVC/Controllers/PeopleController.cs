@@ -9,6 +9,7 @@ using PHONEBOOK.DOMIN.CORE;
 using PHONEBOOK.ENDPOINT.MVC.Models;
 using PHONEBOOK.INFRASTRUCTURE.DAL;
 using PHONEBOOK.INFRASTRUCTURE.DAL.Repository;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace PHONEBOOK.ENDPOINT.MVC.Controllers
 {
@@ -28,11 +29,52 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
             return View(listprsn);
         }
 
-        public IActionResult sag(int id)
+        public IActionResult showDetial(int id)
         {
-            var listprsn = personRepository.GetAll().ToList();
-            return View(listprsn);
+            var pr = personRepository.getByID(id);
+            showDetail_Viewmodel mdlshow = new showDetail_Viewmodel()
+            {
+                FirstName = pr.FirstName,
+                LastName = pr.LastName,
+                Address = pr.Address,
+                Email = pr.Email,
+                List < Phone > phlist = new List<Phone>() { };
+            };
+            
+            byte[] bytes = Convert.FromBase64String("");
+
+            Image image;
+            using (MemoryStream ms = new MemoryStream(bytes))
+            {
+                image = Image.FromStream(ms);
+            }
+            //     [HttpPost]
+
+
+            //return View(listprsn);
         }
+
+        public void Base64ToImage(string _source)
+        {
+            string source = _source;
+            string base64 = source.Substring(source.IndexOf(',') + 1);
+            byte[] data = Convert.FromBase64String(base64);
+        }
+
+        /*public Image LoadImage(string _source)
+        {
+            //data:image/gif;base64,
+            //this image is a single pixel (black)
+            byte[] bytes = Convert.FromBase64String(_source);
+
+            Image image;
+            using (MemoryStream ms = new MemoryStream(bytes))
+            {
+                image = Image.FromStream(ms);
+            }
+
+            return image;
+        }*/
 
 
         // by default get
@@ -54,7 +96,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
         [HttpPost]
         public IActionResult Add(AddNewPeopleselectedTag_ViewModel model)
         {
-            
+
             if (ModelState.IsValid)
             {
                 Person prsn = new Person()
@@ -88,14 +130,15 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
 
                 personRepository.Add(prsn);
 
-                return View();
+                return View();//null renrence
 
             }
-            AddNewPeopleForDispaly_ViewModel modelshow = new AddNewPeopleForDispaly_ViewModel() { 
-            FirstName= model.FirstName,
-            LastName= model.LastName,
-            Email= model.Email,
-            Address= model.Address,
+            AddNewPeopleForDispaly_ViewModel modelshow = new AddNewPeopleForDispaly_ViewModel()
+            {
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+                Email = model.Email,
+                Address = model.Address,
             };
             modelshow.TagsForDisplay = tagRepository.GetAll().ToList();//show un selct 
             return View(modelshow);
