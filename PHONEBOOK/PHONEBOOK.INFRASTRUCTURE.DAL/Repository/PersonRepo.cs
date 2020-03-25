@@ -10,6 +10,7 @@ namespace PHONEBOOK.INFRASTRUCTURE.DAL.Repository
     {
         public PersonRepo(PHONEBOOK_DB dbContext) : base(dbContext)
         {
+            
         }
     }
 }

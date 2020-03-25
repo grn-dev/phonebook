@@ -307,3 +307,5 @@ D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.pdb
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.genruntimeconfig.cache
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\People\Index.cshtml.g.cs
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\People\showDetial.cshtml.g.cs
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Tag\Index.cshtml.g.cs

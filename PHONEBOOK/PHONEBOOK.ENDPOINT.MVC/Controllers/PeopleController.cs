@@ -17,7 +17,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
     {
         private readonly ITagRepository tagRepository;
         private readonly IPersonRepository personRepository;
-        public PeopleController(ITagRepository _tagRepository, IPersonRepository _personRepository,iper)
+        public PeopleController(ITagRepository _tagRepository, IPersonRepository _personRepository)
         {
             tagRepository = _tagRepository;
             personRepository = _personRepository;
@@ -29,8 +29,16 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
             return View(listprsn);
         }
 
-        public IActionResult showDetial(int id)
+        /*public IActionResult showDetial(int id)
         {
+            var customer = (
+            from cus in personRepository.GetAll()
+            join lib in tagRepository.GetAll()
+            join lib in tagRepository.GetAll()
+            on cus.ID equals lib.
+            select cus
+                ).ToList();
+
             var pr = personRepository.getByID(id);
             showDetail_Viewmodel mdlshow = new showDetail_Viewmodel()
             {
@@ -38,14 +46,14 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
                 LastName = pr.LastName,
                 Address = pr.Address,
                 Email = pr.Email,
-                Phones= pr.Phones,
+                Phones = pr.Phones,
                 //Image= pr.Image,
-                Tags= pr.Tags,
-                
+                Tags = pr.Tags,
+
             };
             var pr = PesronTag.;
-            mdlshow.Title_tag=
-            
+            mdlshow.Title_tag =
+
             byte[] bytes = Convert.FromBase64String("");
 
             Image image;
@@ -55,11 +63,11 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
             }
             //     [HttpPost]
 
+            
+        //return View(listprsn);
+    }*/
 
-            //return View(listprsn);
-        }
-
-        public void Base64ToImage(string _source)
+    public void Base64ToImage(string _source)
         {
             string source = _source;
             string base64 = source.Substring(source.IndexOf(',') + 1);

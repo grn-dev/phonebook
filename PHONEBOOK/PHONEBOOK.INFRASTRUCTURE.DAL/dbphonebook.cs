@@ -26,6 +26,9 @@ namespace PHONEBOOK.INFRASTRUCTURE.DAL
             modelBuilder.ApplyConfiguration(new PhoneConfig());
             modelBuilder.ApplyConfiguration(new tagconfig());
 
+
+            
+
             base.OnModelCreating(modelBuilder);
         }
 

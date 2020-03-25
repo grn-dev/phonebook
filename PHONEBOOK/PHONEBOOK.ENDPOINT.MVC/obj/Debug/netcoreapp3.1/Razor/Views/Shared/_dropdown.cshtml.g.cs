@@ -27,7 +27,7 @@ using PHONEBOOK.ENDPOINT.MVC.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"384f4182ed1a8bac686ee89989a9fd7d55d7509f", @"/Views/Shared/_dropdown.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"373cbdeb7cdee268b91bf4227b0edd570917aeaf", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5c35240aff0bbf803bd85154ee0fe8e91fc720fc", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__dropdown : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
