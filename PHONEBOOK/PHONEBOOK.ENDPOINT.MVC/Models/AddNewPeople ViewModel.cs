@@ -41,7 +41,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Models
 
     public  class AddNewPeopleselectedTag_ViewModel: AddNewPeople_ViewModel
     {
-        public List<Tag> selectedtag { get; set; }
+        public List<int> selectedtag { get; set; }
     }
 
 }

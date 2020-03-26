@@ -34,7 +34,8 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
         {
             
             var gkjg=tagRepository.getByID(id);
-            return View(gkjg);
+            return View("Menu", gkjg);
+           // return View(gkjg);
         }
 
 
@@ -42,22 +43,22 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
         {
             tagRepository.Delete(id);
 
-            return View();
+            return RedirectToAction("Index");
         }
 
 
         [HttpPost]
-        public IActionResult Add(AllTagViewModel ssss)
+        public IActionResult Add(AllTagViewModelforsave ssss)
         {
 
             Tag alo = new Tag() { 
-                 Title= ssss.Title.Title
+            Title= ssss.Title
             };
             //ssss.Title
-            tagRepository.Add(ssss.Title);
+            tagRepository.Add(alo);
                
 
-            return View();
+            return RedirectToAction("Index");
         }
     }
 }

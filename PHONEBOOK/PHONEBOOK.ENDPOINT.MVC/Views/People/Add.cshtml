@@ -58,7 +58,7 @@
 
         <div class="form-group">
 
-            <select  asp-for="TagsForDisplay" name="selectedtag"  multiple>
+            <select   name="selectedtag"  multiple>
                 @foreach (var item in Model.TagsForDisplay)
                  {
                     <option value="@item.ID"> @item.Title</option>
