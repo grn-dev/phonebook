@@ -5,11 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PHONEBOOK.DOMAIN.CONTRACT;
+using PHONEBOOK.ENDPOINT.MVC.Models.AAA;
 using PHONEBOOK.INFRASTRUCTURE.DAL;
 using PHONEBOOK.INFRASTRUCTURE.DAL.Repository;
 
@@ -35,9 +37,15 @@ namespace PHONEBOOK.ENDPOINT.MVC
             //("Data Source=.;Initial Catalog=PHONEBOOK;Integrated Security=True;"));
             services.AddDbContext<PHONEBOOK_DB>(ServiceLifetime.Scoped);
 
+            
+            //("Data Source=.;Initial Catalog=PHONEBOOK;Integrated Security=True;"));
+
             services.AddScoped<IPersonRepository, PersonRepo>();
             services.AddScoped<ITagRepository, TagRepo>();
             services.AddScoped<IPhoneRepository, PhoneRepo>();
+
+            services.AddIdentity<Appuser, IdentityRole>().AddEntityFrameworkStores<UserDbContext>();
+            services.AddDbContext<UserDbContext>(c => c.UseSqlServer(Configuration.GetConnectionString("aaa")));
 
             //services.AddControllersWithViews();
 
@@ -61,7 +69,8 @@ namespace PHONEBOOK.ENDPOINT.MVC
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseAuthentication();//FOR atu
+
 
             app.UseEndpoints(endpoints =>
             {
