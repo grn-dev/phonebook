@@ -143,7 +143,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
 
                 personRepository.Add(prsn);
 
-                return View();//null renrence
+                return RedirectToAction("Add");
 
             }
             AddNewPeopleForDispaly_ViewModel modelshow = new AddNewPeopleForDispaly_ViewModel()

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace PHONEBOOK.ENDPOINT.MVC.Models.AAA
 {
-    public class UserDbContext : IdentityDbContext
+    public class UserDbContext : IdentityDbContext<Appuser>
     {
         public UserDbContext(DbContextOptions option):base(option)
         {
