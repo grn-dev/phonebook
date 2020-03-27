@@ -307,3 +307,16 @@ D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\People\Index.cshtml.g.cs
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\People\showDetial.cshtml.g.cs
 D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Tag\Index.cshtml.g.cs
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.csproj.CoreCompileInputs.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\PHONEBOOK.ENDPOINT.MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
+D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\obj\Debug\netcoreapp3.1\Razor\Views\User\Creat.cshtml.g.cs

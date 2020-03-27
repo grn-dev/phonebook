@@ -26,8 +26,15 @@ using PHONEBOOK.ENDPOINT.MVC.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\Views\_ViewImports.cshtml"
+using PHONEBOOK.ENDPOINT.MVC.Models.AAA;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99464617055fdb505bb0bb7fd91f9b14f7b0d030", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5c35240aff0bbf803bd85154ee0fe8e91fc720fc", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8a6f15baea12a76186979c85131aaa19e9073e98", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

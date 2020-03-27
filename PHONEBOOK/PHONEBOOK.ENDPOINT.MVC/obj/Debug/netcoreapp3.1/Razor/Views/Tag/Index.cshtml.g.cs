@@ -26,8 +26,15 @@ using PHONEBOOK.ENDPOINT.MVC.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\Git myproject\phonebook\phonebook\PHONEBOOK\PHONEBOOK.ENDPOINT.MVC\Views\_ViewImports.cshtml"
+using PHONEBOOK.ENDPOINT.MVC.Models.AAA;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"73845c4695db4e6edc4e64361e90511aae14cd18", @"/Views/Tag/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5c35240aff0bbf803bd85154ee0fe8e91fc720fc", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8a6f15baea12a76186979c85131aaa19e9073e98", @"/Views/_ViewImports.cshtml")]
     public class Views_Tag_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<AllTagViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Tag", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -108,7 +115,7 @@ using PHONEBOOK.ENDPOINT.MVC.Models;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n\r\n                <td>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "73845c4695db4e6edc4e64361e90511aae14cd186622", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "73845c4695db4e6edc4e64361e90511aae14cd186840", async() => {
                 WriteLiteral("ویرایش");
             }
             );
@@ -141,7 +148,7 @@ using PHONEBOOK.ENDPOINT.MVC.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </td>\r\n                <td>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "73845c4695db4e6edc4e64361e90511aae14cd189045", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "73845c4695db4e6edc4e64361e90511aae14cd189263", async() => {
                 WriteLiteral("delete ");
             }
             );
@@ -182,7 +189,7 @@ using PHONEBOOK.ENDPOINT.MVC.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n        </tbody>\r\n    </table>\r\n\r\n    <button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#exampleModal\" >اضافه کردن  </button>\r\n    \r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "73845c4695db4e6edc4e64361e90511aae14cd1811862", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "73845c4695db4e6edc4e64361e90511aae14cd1812080", async() => {
                 WriteLiteral(@"
         <div class=""modal fade"" id=""exampleModal"" tabindex=""-1"" role=""dialog"" aria-labelledby=""exampleModalLabel"" aria-hidden=""true"">
             <div class=""modal-dialog"" role=""document"">
