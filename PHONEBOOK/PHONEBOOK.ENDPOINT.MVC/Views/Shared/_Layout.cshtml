@@ -30,10 +30,26 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+   
+
+
 </head>
 
 <body>
 
+
+
+    @if (ViewBag.Message != null)
+    {
+        <script>
+
+            function myFunction() {
+                alert("Hello! I am an alert box!");
+                alert('@ViewBag.Message');
+            }
+
+        </script>
+    }
     <div id="wrapper">
 
         <!-- Navigation -->
@@ -236,7 +252,7 @@
 
                                     @*<a href="flot.html">اضافه کردن شخص</a>*@
                                 </li>
-                                
+
                                 <li>
                                     <a asp-controller="user"
                                        asp-action="index">نمایش لیست اعضا</a>
@@ -338,6 +354,10 @@
             </div>
             <!-- /.container-fluid -->
         </div>
+
+
+
+
         <!-- /#page-wrapper -->
 
     </div>
@@ -345,17 +365,12 @@
     <!-- jQuery -->
     <script src="~/bower_components/jquery/dist/jquery.min.js"></script>
 
-    
-    
+
+
     <!-- for Error message -->
     @*<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>*@
     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
     <!-- for Error message -->
-
-
-
-
-
     <!-- Bootstrap Core JavaScript -->
     <script src="~/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
