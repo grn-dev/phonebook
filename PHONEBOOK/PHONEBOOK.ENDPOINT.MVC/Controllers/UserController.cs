@@ -38,6 +38,7 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
         [HttpPost]
         public IActionResult Creat(CreatUserViewModel model)
         {
+            string Errortxt = null;
             if (ModelState.IsValid)
             {
                 Appuser user = new Appuser();
@@ -55,11 +56,14 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
                 else {
                     foreach (var item in save.Errors)
                     {
+                        Errortxt = Errortxt + "          " + item.Description;
                         ModelState.AddModelError(item.Code,item.Description);
                     }
                 }
+                 
 
-                
+                ViewBag.Error = Errortxt;
+                //UserManager.add
                 //repoditory or savind here
 
             }
@@ -70,9 +74,42 @@ namespace PHONEBOOK.ENDPOINT.MVC.Controllers
             return View();
         }
 
-        public IActionResult Update()
+        public IActionResult Update(int id)
         {
-            return View();
+            var user = UserManager.FindByIdAsync(id.ToString()).Result;
+            if (user != null)
+            {
+                UpdateUserViewModel model = new UpdateUserViewModel
+                {
+                    Email = user.Email
+                };
+                return View(user);
+            }
+            return NotFound();
+        }
+
+        [HttpPut]
+        public IActionResult Update(int id, UpdateUserViewModel updateUserViewModel)
+        {
+            var user = UserManager.FindByIdAsync(id.ToString()).Result;
+            if (user != null)
+            {
+                user.Email = updateUserViewModel.Email;
+                var result = UserManager.UpdateAsync(user).Result;
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    foreach (var item in result.Errors)
+                    {
+                        ModelState.AddModelError(item.Code, item.Description);
+                    }
+                }
+                return View(updateUserViewModel);
+            }
+            return NotFound();
         }
 
         public IActionResult Delete()

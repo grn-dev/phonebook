@@ -21,4 +21,11 @@ namespace PHONEBOOK.ENDPOINT.MVC.Models
         public string password { get; set; }
         
     }
+
+    public class UpdateUserViewModel
+    {
+        [Required]
+        [MaxLength(100)]
+        public string Email { get; set; }
+    }
 }
