@@ -32,7 +32,7 @@ namespace PHONEBOOK.ENDPOINT.MVC
             //services.AddMvc();
             services.AddControllersWithViews();
             //services.AddDbContext<PHONEBOOK_DB>(v=> v.uses );
-            ////services.AddDbContext<PHONEBOOK_DB>;
+            //services.AddDbContext<PHONEBOOK_DB>;
             //services.AddDbContext<PHONEBOOK_DB>(c => c.UseSqlServer
             //("Data Source=.;Initial Catalog=PHONEBOOK;Integrated Security=True;"));
             services.AddDbContext<PHONEBOOK_DB>(ServiceLifetime.Scoped);
@@ -44,7 +44,18 @@ namespace PHONEBOOK.ENDPOINT.MVC
             services.AddScoped<ITagRepository, TagRepo>();
             services.AddScoped<IPhoneRepository, PhoneRepo>();
 
-            services.AddIdentity<Appuser, IdentityRole>().AddEntityFrameworkStores<UserDbContext>();
+            services.AddIdentity<Appuser, IdentityRole>(c=> {
+
+                c.Password.RequireDigit = false;
+                c.Password.RequiredLength = 5;
+                c.Password.RequireNonAlphanumeric = false;
+                //c.Password.RequireNonLetterOrDigi = false;
+
+                c.Password.RequireUppercase = false;
+                c.Password.RequireLowercase= false;
+
+
+            }).AddEntityFrameworkStores<UserDbContext>();
             services.AddDbContext<UserDbContext>(c => c.UseSqlServer(Configuration.GetConnectionString("aaa")));
 
             //services.AddControllersWithViews();
